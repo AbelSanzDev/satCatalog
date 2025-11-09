@@ -18,18 +18,6 @@ Los datos provienen de las fuentes públicas del SAT y se distribuyen con fines 
 
 | Archivo | Descripción |
 |----------|--------------|
-| `sat_catalog.json` | Catálogo completo del SAT en formato JSON. |
+| `sat_catalog.json` | Catálogo completo del productos y keys del SAT en formato JSON. |
 
----
 
-## 🧱 Ejemplo de uso
-
-### Node.js
-```ts
-import fs from "fs";
-
-const catalog = JSON.parse(fs.readFileSync("./sat_catalog.json", "utf-8"));
-
-// Buscar un régimen fiscal
-const regimen = catalog.regimenes.find(r => r.clave === "601");
-console.log(regimen.descripcion); // "General de Ley Personas Morales"
