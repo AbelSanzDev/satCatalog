@@ -6,7 +6,7 @@ Ideal para desarrolladores que trabajan con **CFDI**, **facturación electrónic
 
 ---
 
-## 🚀 Descripción
+## Descripción
 
 Este archivo contiene los **catálogos oficiales del SAT** en formato estructurado **JSON**, permitiendo integrarlos fácilmente en sistemas de facturación, validadores o APIs.
 
